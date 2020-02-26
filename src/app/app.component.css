@@ -1,0 +1,97 @@
+div{
+	display: flex; 
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+p{
+  font-size: 20px;
+}
+button{
+	width: 150px;
+	height: 40px;
+	border: 2px solid DarkBlue;
+  border-radius: 30px;
+	background-color: rgba(217, 240, 247, 0.116);
+	outline: none;
+	transition: all .4s ease;
+	font-size: 20px;
+	margin: 1px 7px;
+}
+button:hover{ 
+	box-shadow: 3px 3px 3px 2px black;
+	cursor: pointer;
+}
+
+
+#choosens{
+  margin-top: 1em;
+}
+#choo{
+  border: 1px solid #369;
+  border-radius: 7px;
+  width: 6em;
+	height: 2em;
+  font-size: 12px;
+}
+#choo:hover{
+  box-shadow: 1px 1px 1px 1px black;
+	cursor: pointer;
+}
+
+#sear{
+  margin-top: 5em;
+}
+#sea{
+  height: 2em;
+  width: 4em;
+	border: 2px solid #369;
+  border-radius: 3px;
+	background-color: rgba(217, 240, 247, 0.116);
+	outline: none;
+	transition: all .4s ease;
+	font-size: 20px;
+  align-self: center;
+}
+#sea:hover{
+  box-shadow: 1px 1px 1px 1px black;
+	cursor: pointer;
+}
+input{
+	width: 300px;
+	height: 2em;
+
+	border: 2px solid #369;
+  border-radius: 3px;
+	background-color: rgba(217, 240, 247, 0.116);
+  color: darkblue;
+	outline: none;
+	transition: all .4s ease;
+	font-size: 20px;
+  align-self: center;
+}
+#qwe{
+  height: 2em;
+  width: 2em;
+	border: 2px solid darkblue;
+  border-radius: 90px;
+	background-color: rgba(217, 240, 247, 0.116);
+	outline: none;
+	transition: all .4s ease;
+	font-size: 20px;
+  align-self: center;
+}
+#qwe:hover::after { 
+  content: attr(data-title); /* Выводим текст */
+  position: absolute; /* Абсолютное позиционирование */
+  left: 30%; top: 40%; /* Положение подсказки */
+  z-index: 1; /* Отображаем подсказку поверх других элементов */
+  background: rgba(255,255,230,0.7); /* Полупрозрачный цвет фона */
+  font-size: 14px; /* Размер текста подсказки */
+  padding: 5px 10px; /* Поля */
+  border: 1px solid #333; /* Параметры рамки */
+}
+#qwe:hover{
+    box-shadow: none;
+}
