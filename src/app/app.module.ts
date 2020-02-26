@@ -8,7 +8,7 @@ import { ShapComponent } from './shap/shap.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, ShapComponent ],
+  declarations: [ AppComponent, HelloComponent, ShapComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
